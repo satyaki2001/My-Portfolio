@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satyaki Sinha - Web Developer, Java Enthusiast</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--Start of First Page-->
+
+    <div class="Front-page">
+      <div class="topnav">
+        <button class="nav-items" id="home">Home</button>
+        <button class="nav-items" onclick="location.href='#fourth-page'">
+          Projects
+        </button>
+        <button class="nav-items" onclick="location.href='#second-page'">
+          About
+        </button>
+        <button class="nav-items">Contact</button>
+      </div>
+      <div class="headings">
+        <span class="sub-heading">This is me</span>
+        <span class="main-heading">Satyaki Sinha</span>
+      </div>
+      <div class="heading-buttons">
+        <button class="heading-about" onclick="location.href='#second-page'">
+          About Me
+        </button>
+      </div>
+    </div>
+
+    <!--Start of Second Page-->
+
+    <div class="second-page" id="second-page">
+      <img
+        class="about-gif"
+        src="https://media0.giphy.com/media/xUOwGiewfQAm3tcIA8/source.gif"
+        alt="description of gif"
+      />
+      <div class="second-page-headings">
+        <p id="about-me" class="second-page-main-heading">About me</p>
+        <p class="second-page-subheading">Personal Details</p>
+        <p class="about-info">
+          Hey Everyone, I am a Frontend Web Developer, from Kharagpur, India. I
+          am an engineering student currently pursuing Bachelor of Technology in
+          Electronics and Communication Engineering. I love building and
+          designing website and web-apps.
+        </p>
+        <button
+          class="heading-about-info"
+          onclick="location.href='#third-page'"
+        >
+          My Skills
+        </button>
+        <button class="heading-about-info" onclick="location.href='#home'">
+          Home Page
+        </button>
+      </div>
+    </div>
+
+    <!--Start of Third Page-->
+
+    <div class="third-page" id="third-page">
+      <div class="third-page-headings">
+        <p class="third-page-main-heading">My Skills</p>
+        <p class="third-page-subheading">
+          These are my tools with which I play around
+        </p>
+      </div>
+
+      <div class="brand-icon">
+        <div class="skills-icon">
+          <i class="fa-brands fa-html5"></i>
+          <p class="icon-text">This is the skeleton of a website</p>
+        </div>
+        <div class="skills-icon">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p class="icon-text">This is the skin of a website</p>
+        </div>
+        <div class="skills-icon">
+          <i class="fa-brands fa-js"></i>
+          <p class="icon-text">This is the property of a website</p>
+        </div>
+      </div>
+      <div class="third-page-buttons">
+        <button
+          class="heading-about-info third-buttons"
+          onclick="location.href='#fourth-page'"
+        >
+          My Projects
+        </button>
+        <button
+          class="heading-about-info third-buttons"
+          onclick="location.href='#home'"
+        >
+          Home Page
+        </button>
+      </div>
+    </div>
+
+    <!--Start of Fourth Page-->
+    <div class="fourth-page" id="fourth-page">
+      <div class="fourth-page-headings">
+        <p class="fourth-page-main-heading">My Projects</p>
+        <p class="fourth-page-subheading">
+          These are my projects built with passion.
+        </p>
+      </div>
+      <div class="projects">
+        <div class="embeded-page">
+          <embed
+            class="embeded-projects"
+            src="https://bolt-weather.netlify.app/"
+          />
+          <span class="embeded-info"
+            >This is a Weather app created with HTML, CSS , Javascript and
+            React.js. Here I used Open Weather Api to fetch the data related to
+            the current weather information.</span
+          >
+        </div>
+
+        <div class="embeded-page">
+          <embed
+            class="embeded-projects"
+            src="https://bolt-librarian.netlify.app//"
+          />
+          <span class="embeded-info"
+            >This is a Book Search app created with HTML, CSS, Javascript and
+            React.js. Here I used Google Books Api to fetch data regarding the
+            list of books
+          </span>
+        </div>
+      </div>
+      <div class="fourth-page-buttons">
+        <button
+          class="heading-about-info fourth-buttons"
+          onclick="location.href='#fifth-page'"
+        >
+          Contact Me
+        </button>
+        <button
+          class="heading-about-info fourth-buttons"
+          onclick="location.href='#home'"
+        >
+          Home Page
+        </button>
+      </div>
+    </div>
+
+    <!--Start of Fifth Page -->
+
+    <div class="fifth-page" id="fifth-page">
+      <div class="third-page-headings">
+        <p class="third-page-main-heading">Contact Me</p>
+        <p class="third-page-subheading">
+          Wanna meet? lets grab a coffee and have a little chit-chat!
+        </p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/bolt_satyaki/"
+          ><i class="fa-brands fa-instagram social"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/satyaki-sinha-872607195/"
+          ><i class="fa-brands fa-linkedin social"></i
+        ></a>
+        <a href="https://github.com/satyaki2001"
+          ><i class="fa-brands fa-github social"></i
+        ></a>
+      </div>
+      <footer>
+        <span class="footer">Created with &#x2665 by Satyaki</span>
+      </footer>
+    </div>
+  </body>
+</html>

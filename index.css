@@ -1,0 +1,305 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    height: 100%;
+}
+
+.Front-page{
+height: 100vh;
+background-image: url("https://embetronicx.com/wp-content/uploads/2017/08/background.jpg");
+background-repeat: no-repeat;
+
+}
+
+.topnav{
+float: right;
+}
+
+.nav-items{
+background-color: transparent;
+margin-left: -5px;
+border: none;
+color: antiquewhite;
+border-radius: 2px;
+}
+.headings{
+    position: relative;
+    display: inline-block;
+    left: 550px;
+    top: 210px;
+}
+
+.sub-heading{
+    position: relative;
+    color: rgb(246, 103, 26);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    top: 5px;
+    
+}
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    margin-top: -10px;
+    color: antiquewhite;
+}
+
+.heading-buttons{
+    position: relative;
+    display: inline;
+    top: 270px;
+    left: 170px;
+}
+
+button{
+    font-size: 15px;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 0 #ac5eb3 ;
+    transition: ease-out 0.3s;
+}
+
+.heading-about{
+    background-color: transparent;
+    color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+button:hover{
+        background-color: rgb(213, 204, 135);
+        color: white;
+        border: 1px solid transparent;
+        box-shadow: inset 150px 0 0 0 #d5c54d;
+}
+
+.second-page{
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-page-headings{
+    position: relative;
+    color: antiquewhite;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    float: right;
+    right: 200px;
+    top: 50px;
+}
+
+.second-page-main-heading{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.second-page-subheading{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.about-info{
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    width: 500px;
+}
+
+.heading-about-info{
+    position: relative;
+    background-color: transparent;
+    color: antiquewhite;
+    border-color: antiquewhite;
+    top: 35px;
+    margin: 5px;
+}
+
+.about-gif{
+    position: relative;
+     top: 50px;
+     left: 100px;
+     height: 500px;
+     width: 640px;
+}
+
+.third-page{
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-page-headings{
+    position: relative;
+    color: antiquewhite;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+    top: 20px;
+}
+
+.fa-brands{
+    color: antiquewhite;
+}
+
+.third-page-main-heading{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.third-page-subheading{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.skills-icon{
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 120px;
+    margin-left: 190px;
+    left: 135px;
+    width: 160px;
+    height: 250px;
+}
+
+.skills-icon:hover{
+    background-color: #ac5eb3;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 120px 0  #d5c54d
+}
+
+.brand-icon{
+    margin-top: 110px;
+}
+
+.icon-text{
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.third-page-buttons{
+    position: relative;
+}
+
+.third-buttons{
+    margin-top: 30px;
+    left: 600px;
+}
+
+.fourth-page{
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fourth-page-headings{
+    position: relative;
+    color: antiquewhite;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+    top: 20px;
+}
+
+.fourth-page-main-heading{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.fourth-page-subheading{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.projects{
+    position: relative;
+    top: 10px;
+    display: inline;
+    right: 200px;
+
+
+}
+
+.embeded-projects{
+    width:400px; 
+    height: 320px;
+    margin: 40px;
+}
+
+.embeded-page{
+    float: right;
+    margin-left: 100px;
+}
+
+.embeded-info{
+    position: relative;
+    display: flex;
+    width: 500px;
+    bottom: 50px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 25px;
+    color:antiquewhite;
+}
+
+.fourth-page-buttons{
+    position: relative;
+    display: flex;
+    top: 450px;
+    left: 600px;
+}
+
+.fifth-page
+{
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/photos/studio-photography-black-picture-id1094453686?b=1&k=20&m=1094453686&s=170667a&w=0&h=oYT6Gi5J0cVZRSWjRWyj__IQcsMhxniIMjbPDBJTOHM=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social{
+    font-size: 70px;
+    margin: 70px;
+}
+
+.social-icons{
+    display: inline;
+    position: relative;
+    left: 450px;
+}
+
+.social:hover{
+    font-size: 120px;
+    transition: ease-out 0.4s;
+    color: #ac5eb3;
+}
+
+footer{
+    height: 4vh;
+    margin-top: 340px;
+    text-align: center;
+}
+
+.footer{
+    position: relative;
+    margin-top: 80px;
+    color: blanchedalmond;
+    font-size: medium;
+}
+
+
