@@ -291,15 +291,21 @@ button:hover{
 
 footer{
     height: 4vh;
-    margin-top: 340px;
+    margin-top: 295px;
     text-align: center;
 }
 
 .footer{
     position: relative;
-    margin-top: 80px;
+    margin-top: 40px;
     color: blanchedalmond;
     font-size: medium;
+}
+
+.contact-page-button{
+    display: block;
+    left: 675px;
+    top: 60px;
 }
 
 
